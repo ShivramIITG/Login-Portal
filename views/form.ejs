@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTER</title>
+</head>
+<body>
+<p>Welcome to Register page </p>
+<a style="text-decoration:none;color: red; " href="/login">Login</a>
+
+<form method="post" action= "/form">
+    <ul style="list-style: none">
+        <li>
+            Username: <input type="text" name="username">
+        </li>
+
+        <li>
+            Name: <input type="text" name="name">
+        </li>
+
+        <li>
+           Password: <input type="password" name="password">
+        </li>
+        <input type="submit" value="submit">
+    </ul>
+</form>
+
+<% if (locals.message) { %>
+<h3><%= message%>
+<%} %>
+
+<% if (locals.user) { %>
+  as <%= user.username%></h3>
+<%} %>
+
+</body>
+</html>

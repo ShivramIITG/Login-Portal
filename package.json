@@ -1,0 +1,32 @@
+{
+  "name": "loginportal",
+  "version": "1.0.0",
+  "description": "Simple Login/Register Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "testProj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivramIITG/Login-Portal.git"
+  },
+  "keywords": [
+    "nil"
+  ],
+  "author": "Shivram N Gowtham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivramIITG/Login-Portal/issues"
+  },
+  "homepage": "https://github.com/ShivramIITG/Login-Portal#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "mongoose": "^4.7.6",
+    "multer": "^1.2.1",
+    "pug": "^2.0.0-beta6"
+  }
+}

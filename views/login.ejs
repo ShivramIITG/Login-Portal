@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LOGIN</title>
+</head>
+<body>
+<p>Welcome to Login page </p>
+<a style="text-decoration:none;color: red; " href="/form">Register</a>
+
+<form method="post" action= "/login">
+    <ul style="list-style: none">
+        <li>
+            Username: <input type="text" name="username">
+        </li>
+
+        <li>
+            Password: <input type="password" name="password">
+        </li>
+        <input type="submit" value="submit">
+    </ul>
+</form>
+
+<% if (locals.message) { %>
+<h3><%= message%></h3>
+<%} %>
+
+</body>
+</html>
